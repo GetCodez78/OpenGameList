@@ -50,6 +50,11 @@ namespace OpenGameListWebApp
 
             app.UseApplicationInsightsExceptionTelemetry();
 
+            // Static file support added
+            app.UseDefaultFiles();
+
+            app.UseStaticFiles();
+
             app.UseMvc();
         }
     }
