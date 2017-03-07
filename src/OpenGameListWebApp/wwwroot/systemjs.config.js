@@ -21,7 +21,8 @@
       'platform-browser',
       'platform-browser-dynamic',
       'upgrade',
-      'forms'
+      'forms',
+      'router'
     ];
 
     function packIndex(pkgName) {
@@ -30,13 +31,13 @@
 
     function packUmd(pkgName) {
         packages['@angular/' + pkgName] = { main: '/bundles/' + pkgName + '.umd.js', defaultExtension: 'js' };
-    };
+    }
 
     var setPackageConfig = System.packageWithIndex ? packIndex : packUmd;
     ngPackageNames.forEach(setPackageConfig);
     var config = {
         map: map,
         packages: packages
-    }
+    };
     System.config(config);
 })(this);

@@ -3,6 +3,7 @@ import { NgModule } from "@angular/core";
 import { BrowserModule } from "@angular/platform-browser";
 import { HttpModule } from "@angular/http";
 import { FormsModule } from "@angular/forms";
+import { RouterModule } from "@angular/router";
 import "rxjs/Rx";
 
 import { AppComponent } from "./app.component";
@@ -21,7 +22,8 @@ import { ItemService } from "./item.service";
     imports: [
         BrowserModule,
         HttpModule,
-        FormsModule
+        FormsModule,
+        RouterModule
     ],
     // providers
     providers: [
