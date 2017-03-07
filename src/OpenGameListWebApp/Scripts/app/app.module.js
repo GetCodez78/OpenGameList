@@ -36,9 +36,9 @@ System.register(["@angular/core", "@angular/platform-browser", "@angular/http", 
                         declarations: [
                             app_component_1.AppComponent
                         ],
-                        //modules
+                        // modules
                         imports: [platform_browser_1.BrowserModule, http_1.HttpModule],
-                        //providers
+                        // providers
                         providers: [],
                         bootstrap: [app_component_1.AppComponent]
                     }), 
