@@ -1,13 +1,15 @@
-﻿import {Injectable} from "@angular/core";
-import {Http, Response} from "@angular/http";
-import {Observable} from "rxjs/Observable";
-import {Item} from "./item";
+﻿import { Injectable } from "@angular/core";
+import { Http, Response } from "@angular/http";
+import { Observable } from "rxjs/Observable";
+import 'rxjs/add/operator/catch';
+import { Item } from "./item";
 
 @Injectable()
 export class ItemService {
     constructor(private http: Http) { }
 
     private baseUrl = "api/items/";  // web api URL
+
 
     // calls the [GET] /api/items/GetLatest/{n} Web API method to retrieve the latest items.
     getLatest(num?: number) {
