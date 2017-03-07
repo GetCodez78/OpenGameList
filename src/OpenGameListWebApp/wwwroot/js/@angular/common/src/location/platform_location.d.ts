@@ -5,7 +5,6 @@
  * Use of this source code is governed by an MIT-style license that can be
  * found in the LICENSE file at https://angular.io/license
  */
-import { OpaqueToken } from '@angular/core';
 /**
  * This class should not be used directly by an application developer. Instead, use
  * {@link Location}.
@@ -34,8 +33,8 @@ import { OpaqueToken } from '@angular/core';
  */
 export declare abstract class PlatformLocation {
     abstract getBaseHrefFromDOM(): string;
-    abstract onPopState(fn: LocationChangeListener): void;
-    abstract onHashChange(fn: LocationChangeListener): void;
+    abstract onPopState(fn: UrlChangeListener): void;
+    abstract onHashChange(fn: UrlChangeListener): void;
     pathname: string;
     search: string;
     hash: string;
@@ -45,21 +44,16 @@ export declare abstract class PlatformLocation {
     abstract back(): void;
 }
 /**
- * @whatItDoes indicates when a location is initialized
- * @experimental
- */
-export declare const LOCATION_INITIALIZED: OpaqueToken;
-/**
  * A serializable version of the event from onPopState or onHashChange
  *
  * @experimental
  */
-export interface LocationChangeEvent {
+export interface UrlChangeEvent {
     type: string;
 }
 /**
  * @experimental
  */
-export interface LocationChangeListener {
-    (e: LocationChangeEvent): any;
+export interface UrlChangeListener {
+    (e: UrlChangeEvent): any;
 }

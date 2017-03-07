@@ -1,40 +1,40 @@
 {
   "_args": [
     [
-      "@angular/platform-browser-dynamic@^2.4.4",
+      "@angular/platform-browser-dynamic@2.0.0-rc.5",
       "C:\\Users\\Zhi\\Documents\\GitHub\\OpenGameList\\src\\OpenGameListWebApp"
     ]
   ],
-  "_from": "@angular/platform-browser-dynamic@>=2.4.4-0 <3.0.0-0",
-  "_id": "@angular/platform-browser-dynamic@2.4.8",
+  "_from": "@angular/platform-browser-dynamic@2.0.0-rc.5",
+  "_id": "@angular/platform-browser-dynamic@2.0.0-rc.5",
   "_inCache": true,
   "_location": "/@angular/platform-browser-dynamic",
-  "_nodeVersion": "6.9.5",
+  "_nodeVersion": "5.4.1",
   "_npmOperationalInternal": {
-    "host": "packages-18-east.internal.npmjs.com",
-    "tmp": "tmp/platform-browser-dynamic-2.4.8.tgz_1487455874775_0.24695987533777952"
+    "host": "packages-16-east.internal.npmjs.com",
+    "tmp": "tmp/platform-browser-dynamic-2.0.0-rc.5.tgz_1470759653256_0.1995631034951657"
   },
   "_npmUser": {
     "email": "angular-core+npm@google.com",
     "name": "angular"
   },
-  "_npmVersion": "3.10.10",
+  "_npmVersion": "3.9.2",
   "_phantomChildren": {},
   "_requested": {
     "name": "@angular/platform-browser-dynamic",
-    "raw": "@angular/platform-browser-dynamic@^2.4.4",
-    "rawSpec": "^2.4.4",
+    "raw": "@angular/platform-browser-dynamic@2.0.0-rc.5",
+    "rawSpec": "2.0.0-rc.5",
     "scope": "@angular",
-    "spec": ">=2.4.4-0 <3.0.0-0",
-    "type": "range"
+    "spec": "2.0.0-rc.5",
+    "type": "version"
   },
   "_requiredBy": [
     "/"
   ],
-  "_resolved": "https://registry.npmjs.org/@angular/platform-browser-dynamic/-/platform-browser-dynamic-2.4.8.tgz",
-  "_shasum": "86059fe930489d1ca0056a5aba0b4420414759f5",
+  "_resolved": "https://registry.npmjs.org/@angular/platform-browser-dynamic/-/platform-browser-dynamic-2.0.0-rc.5.tgz",
+  "_shasum": "4a5362679a9378600a1cc012030f2bc51555f530",
   "_shrinkwrap": null,
-  "_spec": "@angular/platform-browser-dynamic@^2.4.4",
+  "_spec": "@angular/platform-browser-dynamic@2.0.0-rc.5",
   "_where": "C:\\Users\\Zhi\\Documents\\GitHub\\OpenGameList\\src\\OpenGameListWebApp",
   "author": {
     "name": "angular"
@@ -43,31 +43,31 @@
     "url": "https://github.com/angular/angular/issues"
   },
   "dependencies": {},
-  "description": "Angular - library for using Angular in a web browser with JIT compilation",
+  "description": "",
   "devDependencies": {},
   "directories": {},
   "dist": {
-    "shasum": "86059fe930489d1ca0056a5aba0b4420414759f5",
-    "tarball": "https://registry.npmjs.org/@angular/platform-browser-dynamic/-/platform-browser-dynamic-2.4.8.tgz"
+    "shasum": "4a5362679a9378600a1cc012030f2bc51555f530",
+    "tarball": "https://registry.npmjs.org/@angular/platform-browser-dynamic/-/platform-browser-dynamic-2.0.0-rc.5.tgz"
   },
   "homepage": "https://github.com/angular/angular#readme",
   "installable": true,
+  "jsnext:main": "esm/index.js",
   "license": "MIT",
-  "main": "bundles/platform-browser-dynamic.umd.js",
+  "main": "index.js",
   "maintainers": [
     {
       "name": "angular",
       "email": "angular-core+npm@google.com"
     }
   ],
-  "module": "index.js",
   "name": "@angular/platform-browser-dynamic",
   "optionalDependencies": {},
   "peerDependencies": {
-    "@angular/common": "2.4.8",
-    "@angular/compiler": "2.4.8",
-    "@angular/core": "2.4.8",
-    "@angular/platform-browser": "2.4.8"
+    "@angular/common": "^2.0.0-rc.5",
+    "@angular/compiler": "^2.0.0-rc.5",
+    "@angular/core": "^2.0.0-rc.5",
+    "@angular/platform-browser": "^2.0.0-rc.5"
   },
   "repository": {
     "type": "git",
@@ -75,5 +75,5 @@
   },
   "scripts": {},
   "typings": "index.d.ts",
-  "version": "2.4.8"
+  "version": "2.0.0-rc.5"
 }

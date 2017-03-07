@@ -1,40 +1,40 @@
 {
   "_args": [
     [
-      "@angular/common@^2.4.4",
+      "@angular/common@2.0.0-rc.5",
       "C:\\Users\\Zhi\\Documents\\GitHub\\OpenGameList\\src\\OpenGameListWebApp"
     ]
   ],
-  "_from": "@angular/common@>=2.4.4-0 <3.0.0-0",
-  "_id": "@angular/common@2.4.8",
+  "_from": "@angular/common@2.0.0-rc.5",
+  "_id": "@angular/common@2.0.0-rc.5",
   "_inCache": true,
   "_location": "/@angular/common",
-  "_nodeVersion": "6.9.5",
+  "_nodeVersion": "5.4.1",
   "_npmOperationalInternal": {
-    "host": "packages-12-west.internal.npmjs.com",
-    "tmp": "tmp/common-2.4.8.tgz_1487455851163_0.6322604920715094"
+    "host": "packages-16-east.internal.npmjs.com",
+    "tmp": "tmp/common-2.0.0-rc.5.tgz_1470759616039_0.6053975811228156"
   },
   "_npmUser": {
     "email": "angular-core+npm@google.com",
     "name": "angular"
   },
-  "_npmVersion": "3.10.10",
+  "_npmVersion": "3.9.2",
   "_phantomChildren": {},
   "_requested": {
     "name": "@angular/common",
-    "raw": "@angular/common@^2.4.4",
-    "rawSpec": "^2.4.4",
+    "raw": "@angular/common@2.0.0-rc.5",
+    "rawSpec": "2.0.0-rc.5",
     "scope": "@angular",
-    "spec": ">=2.4.4-0 <3.0.0-0",
-    "type": "range"
+    "spec": "2.0.0-rc.5",
+    "type": "version"
   },
   "_requiredBy": [
     "/"
   ],
-  "_resolved": "https://registry.npmjs.org/@angular/common/-/common-2.4.8.tgz",
-  "_shasum": "e45a77a9d852c8e7135053ff38cf805435458c48",
+  "_resolved": "https://registry.npmjs.org/@angular/common/-/common-2.0.0-rc.5.tgz",
+  "_shasum": "8aabd14ca6aa288b3eece0fff86cfc256c502d48",
   "_shrinkwrap": null,
-  "_spec": "@angular/common@^2.4.4",
+  "_spec": "@angular/common@2.0.0-rc.5",
   "_where": "C:\\Users\\Zhi\\Documents\\GitHub\\OpenGameList\\src\\OpenGameListWebApp",
   "author": {
     "name": "angular"
@@ -43,28 +43,28 @@
     "url": "https://github.com/angular/angular/issues"
   },
   "dependencies": {},
-  "description": "Angular - commonly needed directives and services",
+  "description": "",
   "devDependencies": {},
   "directories": {},
   "dist": {
-    "shasum": "e45a77a9d852c8e7135053ff38cf805435458c48",
-    "tarball": "https://registry.npmjs.org/@angular/common/-/common-2.4.8.tgz"
+    "shasum": "8aabd14ca6aa288b3eece0fff86cfc256c502d48",
+    "tarball": "https://registry.npmjs.org/@angular/common/-/common-2.0.0-rc.5.tgz"
   },
   "homepage": "https://github.com/angular/angular#readme",
   "installable": true,
+  "jsnext:main": "esm/index.js",
   "license": "MIT",
-  "main": "bundles/common.umd.js",
+  "main": "index.js",
   "maintainers": [
     {
       "name": "angular",
       "email": "angular-core+npm@google.com"
     }
   ],
-  "module": "index.js",
   "name": "@angular/common",
   "optionalDependencies": {},
   "peerDependencies": {
-    "@angular/core": "2.4.8"
+    "@angular/core": "^2.0.0-rc.5"
   },
   "repository": {
     "type": "git",
@@ -72,5 +72,5 @@
   },
   "scripts": {},
   "typings": "index.d.ts",
-  "version": "2.4.8"
+  "version": "2.0.0-rc.5"
 }

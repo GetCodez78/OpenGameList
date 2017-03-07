@@ -1,40 +1,40 @@
 {
   "_args": [
     [
-      "@angular/core@^2.4.4",
+      "@angular/core@2.0.0-rc.5",
       "C:\\Users\\Zhi\\Documents\\GitHub\\OpenGameList\\src\\OpenGameListWebApp"
     ]
   ],
-  "_from": "@angular/core@>=2.4.4-0 <3.0.0-0",
-  "_id": "@angular/core@2.4.8",
+  "_from": "@angular/core@2.0.0-rc.5",
+  "_id": "@angular/core@2.0.0-rc.5",
   "_inCache": true,
   "_location": "/@angular/core",
-  "_nodeVersion": "6.9.5",
+  "_nodeVersion": "5.4.1",
   "_npmOperationalInternal": {
     "host": "packages-12-west.internal.npmjs.com",
-    "tmp": "tmp/core-2.4.8.tgz_1487455860573_0.49663123581558466"
+    "tmp": "tmp/core-2.0.0-rc.5.tgz_1470759631964_0.3144527019467205"
   },
   "_npmUser": {
     "email": "angular-core+npm@google.com",
     "name": "angular"
   },
-  "_npmVersion": "3.10.10",
+  "_npmVersion": "3.9.2",
   "_phantomChildren": {},
   "_requested": {
     "name": "@angular/core",
-    "raw": "@angular/core@^2.4.4",
-    "rawSpec": "^2.4.4",
+    "raw": "@angular/core@2.0.0-rc.5",
+    "rawSpec": "2.0.0-rc.5",
     "scope": "@angular",
-    "spec": ">=2.4.4-0 <3.0.0-0",
-    "type": "range"
+    "spec": "2.0.0-rc.5",
+    "type": "version"
   },
   "_requiredBy": [
     "/"
   ],
-  "_resolved": "https://registry.npmjs.org/@angular/core/-/core-2.4.8.tgz",
-  "_shasum": "bf1a4fc324827516e6c3222047a9b2cbdaee6976",
+  "_resolved": "https://registry.npmjs.org/@angular/core/-/core-2.0.0-rc.5.tgz",
+  "_shasum": "6f901fd1ce00e9889c0a3678445a19ac75ea0b63",
   "_shrinkwrap": null,
-  "_spec": "@angular/core@^2.4.4",
+  "_spec": "@angular/core@2.0.0-rc.5",
   "_where": "C:\\Users\\Zhi\\Documents\\GitHub\\OpenGameList\\src\\OpenGameListWebApp",
   "author": {
     "name": "angular"
@@ -43,29 +43,29 @@
     "url": "https://github.com/angular/angular/issues"
   },
   "dependencies": {},
-  "description": "Angular - the core framework",
+  "description": "",
   "devDependencies": {},
   "directories": {},
   "dist": {
-    "shasum": "bf1a4fc324827516e6c3222047a9b2cbdaee6976",
-    "tarball": "https://registry.npmjs.org/@angular/core/-/core-2.4.8.tgz"
+    "shasum": "6f901fd1ce00e9889c0a3678445a19ac75ea0b63",
+    "tarball": "https://registry.npmjs.org/@angular/core/-/core-2.0.0-rc.5.tgz"
   },
   "homepage": "https://github.com/angular/angular#readme",
   "installable": true,
+  "jsnext:main": "esm/index.js",
   "license": "MIT",
-  "main": "bundles/core.umd.js",
+  "main": "index.js",
   "maintainers": [
     {
       "name": "angular",
       "email": "angular-core+npm@google.com"
     }
   ],
-  "module": "index.js",
   "name": "@angular/core",
   "optionalDependencies": {},
   "peerDependencies": {
-    "rxjs": "^5.0.1",
-    "zone.js": "^0.7.2"
+    "rxjs": "5.0.0-beta.6",
+    "zone.js": "^0.6.6"
   },
   "repository": {
     "type": "git",
@@ -73,5 +73,5 @@
   },
   "scripts": {},
   "typings": "index.d.ts",
-  "version": "2.4.8"
+  "version": "2.0.0-rc.5"
 }
